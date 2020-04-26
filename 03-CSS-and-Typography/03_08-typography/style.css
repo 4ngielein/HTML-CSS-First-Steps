@@ -1,0 +1,83 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body{
+    width: 60em;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+h1{font-size: 2.0em;}
+h2{font-size: 1.8em;}
+h3{font-size: 1.6em;}
+h4{font-size: 1.4em;}
+h5{font-size: 1.2em;}
+h6{font-size: 1em;}
+
+p{
+margin-bottom: 1.5em;
+}
+
+.ul-level-one{
+    list-style-type: square;
+}
+
+.ul-level-two{
+    list-style-type: disc;
+}
+
+.ul-level-three{
+    list-style-type: circle;
+}
+
+
+table{
+    width: 100%;
+    border-spacing: 0;
+    text-align: left;
+    
+}
+
+th{
+    background-color: rgb(204, 204, 204);
+    border: 1px solid rgb(204, 204, 204);
+}
+
+table, td{
+    border: 1px solid rgb(221, 221, 221);
+}
+
+
+tr:nth-of-type(odd){
+    background-color: rgb(241, 241, 241);
+}
+
+tr:hover, tr:nth-of-type(odd):hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+p.author{
+    text-align: right;
+    padding-bottom: 1.5em;
+}
+
+blockquote{
+    border-left: 3px solid rgb(221, 221, 221);
+    font-style: italic;
+}
+
+p.quote{
+    padding-left: 2em;
+}
+
+p.quote:first-of-type{
+    padding-top: 1.5em;
+}
