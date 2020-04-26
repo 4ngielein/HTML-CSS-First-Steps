@@ -1,0 +1,78 @@
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-main .wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.header-main .logo{
+    width: 100px;
+    display: flex;
+}
+
+.header-main .logo img{
+    width: 100%;
+    height: auto;
+}
+
+.header-main nav{
+    margin-left: auto;
+}
+
+.header-main nav ul{
+    display: flex;
+}
+
+.header-categories ul{
+    display: flex;
+}
+
+/* MAIN */
+
+.site-content-header .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-content-header .details{
+    display: flex;
+}
+
+.site-content .wrapper{
+    position: relative;
+}
+
+.wp-image{
+    width: 50%;
+    position: absolute;
+    top: -80px;
+    left: -25%;
+    opacity: 0.5;
+    transform: rotate(0.055turn);
+}
+
+.wp-image img{
+    width: 100%;
+}
+
+.info, .skills{
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-items{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.list-items > *{
+    flex: 0 1 45%
+}

@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.12.1/css/all.css');
+
+html{
+    font: 16px/1.5 "Lato", sans-serif;
+}
+
+body, button, input, textarea, option, select{
+    font: inherit;
+}
+
+
+.button{
+    font-size: 0.6em;
+    margin: 0 2em;
+    padding: 0.2em 1.2em;
+    background-color: #FFA000;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.header-main{
+    padding: 0.5em;
+    background-color: #234465;
+}
+
+.header-main nav ul li,
+.header-categories ul li{
+    list-style-type: none;
+}
+
+.header-main nav ul li a{
+    font-size: 0.7em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #91A1B2;
+    padding: 0 0.5em;
+}
+
+.header-main span i{
+    font-size: 0.9em;
+    color: #91A1B2;
+    padding: 0 0.5em;
+}
+
+.header-categories ul li{
+    padding: 0.5em 1em 0.5em 0.5em;
+}
+
+.header-categories ul li a{
+    text-decoration: none;
+    color: #CB7D00;
+    font-size: 0.9em;
+}
+
+.header-categories ul li:hover{
+    border-bottom: 2px solid #234465;
+}
+
+.header-categories ul li:hover a{
+    color: #234465;
+    font-weight: bold;
+}
+
+/* MAIN */
+
+.site-content .button{
+    text-transform: uppercase;
+    margin-top: 1.5em;
+    font-size: 0.7rem;
+    padding: 0.5em 5em;
+}
+
+.site-content-header{
+    background-image: url("https://softuni.bg/Content/images/trainings/details-background.png");
+    background-size: cover;
+}
+
+.site-content-header .wrapper{
+    color: #fff;
+    padding: 2em 0;
+}
+
+.details p{
+    padding: 0.5em;
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+.details p:before{
+    padding-right: 0.2em;
+}
+
+.details p:nth-of-type(1):before{
+    content: "\f144";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+
+.details p:nth-of-type(2):before{
+    content: "\f15c";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+
+.details p:nth-of-type(3):before{
+    content: "\f144";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+
+.details p:nth-of-type(4):before{
+    content: "\f19d";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+
+.site-content-main .wrapper{
+    padding-top: 1em;
+}
+
+.site-content-main .wrapper > *:not(.wp-image){
+    background-color: #F2F2F2;
+    margin: 1em 0;
+}
+
+
+.site-content h2{
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.5em;
+}
+
+.site-content h2:after{
+    display: block;
+    content: "";
+    height: 2px;
+    padding-top: 0.1em;
+    border-bottom: 3px solid #FFA000;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.info p{
+    font-size: 0.8em;
+    padding: 1em 3em;
+}
+
+.info .button{
+    margin-bottom: 1.5em;
+}
+
+.skills p{
+    font-size: 0.8em;
+    padding-bottom: 0.6em;
+}
+
+.skills p:before{
+    display: inline;
+    content: "\f19d";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.2em;
+    font-size: 1.3em;
+    color: #FFA000;
+    position: relative;
+    top: -2px;
+}
+
+.list-items{
+    margin-bottom: 1.5em;
+}
