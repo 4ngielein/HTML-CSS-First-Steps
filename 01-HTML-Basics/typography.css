@@ -1,0 +1,39 @@
+html{
+    padding: 100px 50px;
+    font: 16px/1.5 'lemonada', arial;
+    border: 1px solid red;
+}
+
+@media(min-width: 400px){
+    html{
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 800px){
+    html{
+    font-size: 18px;
+}
+}
+
+
+
+
+body, table, input, option, select, textarea{
+    font: inherit;
+}
+
+h1, h2, h3, h4{
+    border: 1px solid red;
+    padding-bottom: 0.5em;
+
+}
+
+p{
+    padding: 0 0 1.5em 0;
+}
+
+p + h1,
+p+ h2 {
+    padding: 0 0 3em 0;
+}

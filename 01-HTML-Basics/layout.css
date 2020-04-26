@@ -1,0 +1,23 @@
+table{
+    border: 1px solid red;
+    
+}
+
+thead, th{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(158, 121, 121);
+    border-spacing: 0;
+}
+
+tbody{
+    border: 1px solid red;
+}
+
+tr{
+    background-color: grey;
+}
+
+tr:nth-child(even){
+    background-color: lime;
+}
