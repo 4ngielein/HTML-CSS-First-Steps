@@ -1,0 +1,33 @@
+section{
+    display: flex;
+    flex-direction: column;
+    width: 70em;
+    margin: 5em auto;
+}
+
+.title{
+    align-self: flex-end;
+    width: fit-content;
+    background-color: #42ABF8;
+    padding: 0.5em 1.5em;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+}
+
+.entry{
+    display: flex;
+    align-items: center;
+    background-color: #F4F5F7;
+    padding: 0.5em 2.5em;
+    border-bottom: 1px solid #ffffff;
+}
+
+.entry:after{
+    display: block;
+    content:"\f058";
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-left: auto;
+    font-family: "Font Awesome 5 Free";
+    color: #23BE5E;
+}
