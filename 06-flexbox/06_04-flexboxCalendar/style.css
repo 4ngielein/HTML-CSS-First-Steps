@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+.container, section{
+    display: flex;
+    text-align: center;
+}
+
+.container{
+    max-width: 65vw;
+}
+
+.notes{
+    flex-direction: column;
+}
+
+.week{
+    flex-flow: row wrap;
+}
+
+span{
+    border: 1px solid black;
+    /* padding: 3em; */
+    flex: 1 1 20%;
+}
+
+.full-width{
+    flex: 1 1 100%;
+}
+
+.days{
+    flex: row nowrap;
+}
