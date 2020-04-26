@@ -1,0 +1,15 @@
+
+
+table, td, th{
+    border: 1px solid rgb(221, 221, 221);
+}
+
+tr:nth-of-type(odd){
+    background-color: rgb(241, 241, 241);
+}
+
+tr:hover, tr:nth-of-type(odd):hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
